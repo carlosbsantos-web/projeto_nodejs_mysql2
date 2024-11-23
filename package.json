@@ -1,0 +1,31 @@
+{
+  "name": "projeto_node_mysql",
+  "version": "1.0.0",
+  "description": "Projeto NodeJS e MySQL",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "express-handlebars",
+    "bootstrap",
+    "mysql",
+    "mysql2"
+  ],
+  "author": "Carlos Santos",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "express": "^4.21.1",
+    "express-fileupload": "^1.5.1",
+    "express-handlebars": "^8.0.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.11.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
